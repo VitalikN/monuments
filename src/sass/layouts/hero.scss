@@ -1,0 +1,82 @@
+@import "../utils/mixins";
+
+.section {
+  @include mobile {
+    height: 250px;
+    width: 100vw;
+    background-image: url("/Angel.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 550px) {
+    height: 330px;
+  }
+  @media screen and (min-width: 650px) {
+    height: 400px;
+  }
+  @include tablet {
+    height: 450px;
+  }
+  @media screen and (min-width: 900px) {
+    height: 530px;
+  }
+  @media screen and (min-width: 1050px) {
+    height: 630px;
+  }
+  @include desktop {
+    height: 750px;
+  }
+  @media screen and (min-width: 1680px) {
+    height: 100vh;
+  }
+}
+.title {
+  @include mobile {
+    color: #3d1c08d9;
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    margin-left: auto;
+
+    width: 280px;
+  }
+  @include tablet {
+    padding-top: 0;
+    font-size: 2.8em;
+    width: 250px;
+  }
+  @include desktop {
+    font-size: 4.2em;
+
+    width: 400px;
+  }
+}
+.text {
+  @include mobile {
+    display: none;
+  }
+  @include tablet {
+    display: block;
+    color: #ffffff;
+    font-family: "Montserrat", Sans-serif;
+
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    letter-spacing: 2px;
+
+    margin-left: auto;
+
+    font-size: 0.8em;
+    width: 250px;
+    padding-top: 150px;
+  }
+  @include desktop {
+    font-size: 0.9em;
+    width: 400px;
+    padding-top: 200px;
+  }
+}
