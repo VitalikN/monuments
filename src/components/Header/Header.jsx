@@ -13,10 +13,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="container">
-        <nav
-          className={`navigation ${menuOpen ? "open" : ""}`}
-          style={{ display: menuOpen ? "flex" : "none" }}
-        >
+        <nav className={`navigation ${menuOpen ? "open" : ""}`}>
           {" "}
           <MenuItems closeMenu={() => setMenuOpen(false)} />
         </nav>
