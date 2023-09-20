@@ -4,7 +4,12 @@
   @include mobile {
     height: 250px;
     width: 100vw;
-    background-image: url("/Angel.jpg");
+    background-image: linear-gradient(
+        rgba(41, 23, 12, 0.4),
+        rgba(31, 23, 12, 0.4)
+      ),
+      url("/Angel.jpg");
+
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,18 +38,26 @@
 }
 .title {
   @include mobile {
-    color: #3d1c08d9;
+    background: linear-gradient(90deg, #bd976e, #ffffff, #bd976e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: color 0.5s;
+
     font-family: "Playfair Display", Sans-serif;
     font-size: 1.8em;
     font-weight: 600;
     line-height: 1.2em;
     letter-spacing: 0px;
+    text-align: center;
+    padding-top: 10px;
   }
   @include tablet {
     margin-left: auto;
     padding-top: 50px;
     font-size: 2.8em;
-    width: 250px;
+    width: 300px;
+    text-align: left;
   }
   @include desktop {
     font-size: 4.2em;
@@ -71,10 +84,12 @@
 
     font-size: 0.6em;
     padding-top: 10px;
+    text-align: center;
   }
   @include tablet {
     margin-left: auto;
-    width: 250px;
+    width: 300px;
+    text-align: left;
     font-size: 0.8em;
   }
   @include desktop {
