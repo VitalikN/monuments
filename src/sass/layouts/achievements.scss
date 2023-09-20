@@ -1,0 +1,34 @@
+@import "../utils/mixins";
+
+.achievements__section {
+  background-color: #29170c;
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #ffffff;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 2em 0em 3em 0em;
+}
+
+.achievements__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.achievements__item {
+  text-align: center;
+  width: 172px;
+  height: 115px;
+}
+.list__icon {
+  color: #bd976e;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.list__title {
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+}
