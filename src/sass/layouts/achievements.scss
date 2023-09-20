@@ -25,10 +25,23 @@
   color: #bd976e;
   font-size: 50px;
   margin-bottom: 10px;
+  transition: transform 0.4s ease;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
+
 .list__title {
   font-family: "Playfair Display", Sans-serif;
   font-size: 22px;
   font-weight: 500;
-  color: #fff;
+
+  background: linear-gradient(90deg, #bd976e, #ffffff, #bd976e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: color 0.5s;
+  &:hover {
+    color: #ffffff;
+  }
 }
