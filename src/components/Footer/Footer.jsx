@@ -4,9 +4,16 @@ import "../../sass/utils/_container.scss";
 import "../../sass/layouts/footer.scss";
 import Link from "next/link";
 import MenuItems from "../MenuItems/MenuItems";
+
+import { usePathname } from "next/navigation";
+
 const Footer = () => {
+  const pathname = usePathname();
+
   return (
-    <section className="footer__section">
+    <footer
+      className={`footer__section  ${pathname === "/" ? "home" : "other"}`}
+    >
       <div className="container">
         <div className="footer__container">
           <address className="footer__address">
@@ -28,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 export default Footer;

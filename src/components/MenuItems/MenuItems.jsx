@@ -31,15 +31,6 @@ const MenuItems = ({ closeMenu }) => {
       >
         Каталог продукції
       </Link>
-      <Link
-        onClick={closeMenu}
-        href="/contacts"
-        className={`navigation__link ${
-          pathname === "/contacts" ? "active" : ""
-        }`}
-      >
-        Контакти
-      </Link>
     </>
   );
 };
