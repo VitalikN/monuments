@@ -9,11 +9,12 @@
 
 .header {
   background-color: #29170c;
+  height: 70px;
+  display: flex;
+  align-items: center;
   @media screen and (max-width: 767px) {
     height: 60px;
-    display: flex;
     justify-content: center;
-    align-items: center;
   }
 }
 
