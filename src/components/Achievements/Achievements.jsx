@@ -12,7 +12,7 @@ const Achievements = () => {
         <ul className="achievements__list">
           <li className="achievements__item">
             <MdWorkHistory className="list__icon" />
-            <h3 className="list__title">Працюємо з 2015 року</h3>
+            <h3 className="list__title">Працюємо з 2006 року</h3>
           </li>
           <li className="achievements__item">
             <FaHandshake className="list__icon" />
