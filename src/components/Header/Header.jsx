@@ -23,7 +23,6 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <nav className={`navigation ${menuOpen ? "open" : ""}`}>
-          {" "}
           <MenuItems closeMenu={() => setMenuOpen(false)} />
         </nav>
 
