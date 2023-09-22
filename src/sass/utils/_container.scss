@@ -11,10 +11,10 @@
   }
   @include tablet {
     min-width: 768px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   @include desktop {
     width: 1280px;
-    padding-left: 25px;
-    padding-right: 25px;
   }
 }

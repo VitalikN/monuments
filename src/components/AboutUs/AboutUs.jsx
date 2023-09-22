@@ -5,7 +5,7 @@ import "../../sass/layouts/about.scss";
 const AboutUs = () => {
   return (
     <section className="about__section">
-      <div className="container">
+      <div className="container about__overlay">
         <p className="about__text about__lead">
           Наша компанія спеціалізується на виготовленні пам’ятників та
           надгробків для мешканців м. Мукачево та всієї Закарпатської області. З
@@ -19,23 +19,25 @@ const AboutUs = () => {
           граніт, маславський граніт, лезниківський граніт, капустянський
           граніт, та токівський граніт.
         </p>
+      </div>
+      <div className="container about__overlay__title">
         <h2 className="about__title">Послуги, які ми пропонуємо:</h2>
         <ul className="about__list">
           <li className="about__item">
-            <p className="about__text"> Художнє оформлення пам’ятника</p>
+            <p className="about__text"> Художнє оформлення пам’ятника.</p>
           </li>
           <li className="about__item">
-            <p className="about__text"> Заливка армованого фундаменту</p>
+            <p className="about__text"> Заливка армованого фундаменту.</p>
           </li>
           <li className="about__item">
             <p className="about__text">
               Доставка і монтаж пам’ятників в м. Мукачево та Закарпатській
-              області
+              області.
             </p>
           </li>
           <li className="about__item">
             <p className="about__text">
-              Укладання плитки навколо пам`ятника за бажанням замовника
+              Укладання плитки навколо пам`ятника за бажанням замовника.
             </p>
           </li>
           <li className="about__item">
@@ -45,6 +47,8 @@ const AboutUs = () => {
             </p>
           </li>
         </ul>
+      </div>
+      <div className="container about__overlay">
         <h2 className="about__title">Чому обирати нас:</h2>
         <ul className="about__list">
           <li className="about__item">
@@ -81,7 +85,7 @@ const AboutUs = () => {
             </p>
           </li>
         </ul>
-        <p className="about__text">
+        <p className="about__text invite">
           Запрошуємо вас ознайомитися з нашими виробами в онлайн-каталозі. Ми
           гарантуємо креативний підхід, високу якість виробів та відповідальне
           виконання вашого замовлення. Чекаємо на вас!
