@@ -24,9 +24,9 @@ const MenuItems = ({ closeMenu }) => {
       </Link>
       <Link
         onClick={closeMenu}
-        href="/gallery"
+        href="/catalog"
         className={`navigation__link ${
-          pathname === "/gallery" ? "active" : ""
+          pathname === "/catalog" ? "active" : ""
         }`}
       >
         Каталог продукції
