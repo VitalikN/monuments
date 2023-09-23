@@ -10,11 +10,11 @@ const Product = () => {
 
         <ul className="product__list">
           <li className="product__item">
-            <Link href="" className="product__link">
+            <Link href="/catalog/single-monuments" className="product__link">
               <Image
                 className="product__img"
                 src="/granite-1.png"
-                alt="#"
+                alt="catalog/single-monuments"
                 width="350"
                 height="270"
                 priority={true}
@@ -23,11 +23,11 @@ const Product = () => {
             </Link>
           </li>
           <li className="product__item">
-            <Link href="" className="product__link">
+            <Link href="/catalog/double-monuments" className="product__link">
               <Image
                 className="product__img"
                 src="/granite-2.png"
-                alt="#"
+                alt="catalog/double-monuments"
                 width="350"
                 height="270"
                 priority={true}
@@ -36,16 +36,32 @@ const Product = () => {
             </Link>
           </li>
           <li className="product__item">
-            <Link href="" className="product__link">
+            <Link
+              href="/catalog/monument-accessories"
+              className="product__link"
+            >
               <Image
                 className="product__img"
                 src="/granite-vases.png"
-                alt="#"
+                alt="catalog/monument-accessories"
                 width="350"
                 height="270"
                 priority={true}
               />
               <h3 className="product__text">Аксесуари</h3>
+            </Link>
+          </li>
+          <li className="product__item">
+            <Link href="/catalog/icons" className="product__link">
+              <Image
+                className="product__img"
+                src="/icon.jpeg"
+                alt="catalog/icons"
+                width="350"
+                height="270"
+                priority={true}
+              />
+              <h3 className="product__text">Ікони</h3>
             </Link>
           </li>
         </ul>

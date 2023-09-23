@@ -1,0 +1,51 @@
+@import "../utils/mixins";
+
+.description__container {
+  background-color: #29170c;
+
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+.description__box {
+  background-image: linear-gradient(
+      rgba(41, 23, 12, 0.6),
+      rgba(41, 23, 12, 0.6)
+    ),
+    url("/Angel.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include tablet {
+    background-attachment: fixed;
+  }
+  padding-bottom: 4em;
+  padding-top: 3em;
+}
+.description__title {
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 2.6em;
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+
+  background: linear-gradient(90deg, #bd976e 45%, #ffffff 50%, #bd976e 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: color 0.5s;
+  text-align: center;
+}
+
+.description__text {
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.4em;
+
+  background: linear-gradient(90deg, #bd976e, #ffffff, #bd976e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: color 0.5s;
+  padding-top: 1em;
+}
