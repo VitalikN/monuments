@@ -8,7 +8,7 @@ import { Pagination } from "../Pagination/Pagination";
 import { ImageList } from "./ImageList";
 
 const SingleMonumentsList = () => {
-  const [imagesPerPage, setImagesPerPage] = useState(3); // Замінити константу на стан
+  const [imagesPerPage, setImagesPerPage] = useState(3);
   const [currentPage, setCurrentPage] = useState(1);
 
   const displayedImages = singleMonument.slice(
@@ -18,22 +18,19 @@ const SingleMonumentsList = () => {
 
   const handleImagesPerPageChange = (event) => {
     setImagesPerPage(Number(event.target.value));
-    setCurrentPage(1); // Reset the current page to 1 when the number of images per page changes
+    setCurrentPage(1);
   };
 
   return (
     <section className="single__section">
       <div className="container">
         <h2 className="single__title">Одинарні пам`ятники</h2>
-        <label>
-          Зображень на сторінці:
-          <select value={imagesPerPage} onChange={handleImagesPerPageChange}>
-            <option value="3">3</option>
-            <option value="6">6</option>
-            <option value="9">9</option>
-          </select>
-        </label>
-        <ImageList images={displayedImages} />
+
+        <ImageList
+          images={displayedImages}
+          handleImagesPerPageChange={handleImagesPerPageChange}
+          imagesPerPage={imagesPerPage}
+        />
 
         <Pagination
           totalItems={singleMonument.length}
