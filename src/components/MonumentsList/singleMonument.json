@@ -33,5 +33,10 @@
     "id": 7,
     "path": "/single-monuments/image-7.jpg",
     "description": "Опис другого зображення"
+  },
+  {
+    "id": 8,
+    "path": "/single-monuments/image-8.jpg",
+    "description": "Опис другого зображення"
   }
 ]

@@ -1,9 +1,9 @@
+import { useEffect } from "react";
 import Image from "next/image";
 import "../../sass/layouts/imageList.scss";
 
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-import { useEffect } from "react";
 
 export const ImageList = ({
   images,
@@ -32,7 +32,6 @@ export const ImageList = ({
 
   return (
     <>
-      {" "}
       <label className="single__label">
         Кількість зображень на сторінці:
         <select
@@ -40,13 +39,13 @@ export const ImageList = ({
           value={imagesPerPage}
           onChange={handleImagesPerPageChange}
         >
-          <option value="3">3</option>
-          <option value="6">6</option>
-          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="20">20</option>
+          <option value="30">30</option>
         </select>
       </label>
       <ul className="single__list">
-        {images.map((img, index) => (
+        {images.map((img) => (
           <li className="single__item" key={img.id}>
             <a href={img.path}>
               {" "}
