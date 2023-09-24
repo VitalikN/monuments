@@ -8,7 +8,7 @@ import { Pagination } from "../Pagination/Pagination";
 import { ImageList } from "./ImageList";
 
 const SingleMonumentsList = () => {
-  const IMAGES_PER_PAGE = 6;
+  const IMAGES_PER_PAGE = 3;
   const [currentPage, setCurrentPage] = useState(1);
 
   const displayedImages = singleMonument.slice(

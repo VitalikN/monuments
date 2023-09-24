@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "../../sass/layouts/pagination.scss";
 export const Pagination = ({
   totalItems,
   itemsPerPage,
@@ -8,6 +8,10 @@ export const Pagination = ({
 }) => {
   const [currentPage, setCurrentPage] = useState(initialPage);
   const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+  if (totalPages <= 1) {
+    return null;
+  }
 
   const handlePageChange = (page) => {
     setCurrentPage(page);
@@ -20,7 +24,9 @@ export const Pagination = ({
         <button
           key={index}
           onClick={() => handlePageChange(index + 1)}
-          className={currentPage === index + 1 ? "active" : ""}
+          className={` pagination__btn  ${
+            currentPage === index + 1 ? "active" : ""
+          }`}
         >
           {index + 1}
         </button>
