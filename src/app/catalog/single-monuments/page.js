@@ -1,5 +1,7 @@
+import SingleMonumentsList from "@/components/MonumentsList/SingleMonumentsList";
+
 const SingleMonuments = () => {
-  return <h1>одинарні</h1>;
+  return <SingleMonumentsList />;
 };
 
 export default SingleMonuments;

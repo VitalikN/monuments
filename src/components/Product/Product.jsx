@@ -2,6 +2,7 @@ import Image from "next/image";
 import "../../sass/layouts/product.scss";
 import Link from "next/link";
 
+import "../../sass/utils/_container.scss";
 const Product = () => {
   return (
     <section className="product__section">
@@ -41,7 +42,7 @@ const Product = () => {
               className="product__link"
             >
               <Image
-                className="product__img"
+                className="product__img product__vases"
                 src="/granite-vases.png"
                 alt="catalog/monument-accessories"
                 width="350"
@@ -54,7 +55,7 @@ const Product = () => {
           <li className="product__item">
             <Link href="/catalog/icons" className="product__link">
               <Image
-                className="product__img"
+                className="product__img product__icon"
                 src="/icon.jpeg"
                 alt="catalog/icons"
                 width="350"
