@@ -1,9 +1,10 @@
 import Image from "next/image";
-import "../../sass/layouts/singleMonumentsList.scss";
+import "../../sass/layouts/imageList.scss";
+
 export const ImageList = ({ images }) => {
   return (
     <ul className="single__list">
-      {images.map((img) => (
+      {images.map((img, index) => (
         <li className="single__item" key={img.id}>
           <Image
             className="single__img"

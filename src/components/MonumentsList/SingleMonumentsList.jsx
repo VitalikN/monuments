@@ -3,7 +3,7 @@
 import { useState } from "react";
 import singleMonument from "./singleMonument.json";
 import "../../sass/utils/_container.scss";
-import "../../sass/layouts/singleMonumentsList.scss";
+import "../../sass/layouts/imageList.scss";
 import { Pagination } from "../Pagination/Pagination";
 import { ImageList } from "./ImageList";
 
