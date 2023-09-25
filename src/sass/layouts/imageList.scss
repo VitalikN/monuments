@@ -22,15 +22,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 20px;
   padding-top: 3em;
 }
 .single__item {
+  border: 1px solid #bd976e;
+  padding: 10px;
 }
 .single__img {
   cursor: pointer;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .single__label {
   font-family: "Playfair Display", Sans-serif;
