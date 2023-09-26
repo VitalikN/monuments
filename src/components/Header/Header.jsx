@@ -29,7 +29,7 @@ const Header = () => {
           </nav>
           <button
             className="burger-menu"
-            onClick={() => setMenuOpen(!menuOpen)}
+            onClick={() => setMenuOpen((prev) => !prev)}
           >
             <span className={`burger ${menuOpen ? "open" : ""}`}></span>
           </button>
