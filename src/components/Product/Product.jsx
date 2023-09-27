@@ -26,7 +26,7 @@ const Product = () => {
           <li className="product__item">
             <Link href="/catalog/double-monuments" className="product__link">
               <Image
-                className="product__img"
+                className="product__img product__double"
                 src="/granite-2.png"
                 alt="catalog/double-monuments"
                 width="350"
