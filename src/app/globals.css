@@ -1,9 +1,9 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 }
 
 * {
@@ -17,6 +17,15 @@ body {
   width: 100%;
   overflow-x: hidden;
   height: 100%;
+}
+body::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 a {
