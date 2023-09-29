@@ -2,41 +2,41 @@
   {
     "id": 1,
     "path": "/single-monuments/image-1.jpg",
-    "description": "Опис першого зображення"
+    "description": "Опис 1 зображення"
   },
   {
     "id": 2,
     "path": "/single-monuments/image-2.jpg",
-    "description": "Опис другого зображення"
+    "description": "Опис 2 зображення"
   },
   {
     "id": 3,
     "path": "/single-monuments/image-3.jpg",
-    "description": "Опис другого зображення"
+    "description": "Опис 3 зображення"
   },
   {
     "id": 4,
     "path": "/single-monuments/image-4.jpg",
-    "description": "Опис другого зображення"
+    "description": "Опис 4 зображення"
   },
   {
     "id": 5,
     "path": "/single-monuments/image-5.jpg",
-    "description": "Опис другого зображення"
+    "description": "Опис 5 зображення"
   },
   {
     "id": 6,
     "path": "/single-monuments/image-6.jpg",
-    "description": "Опис другого зображення"
+    "description": "Опис 6 зображення"
   },
   {
     "id": 7,
     "path": "/single-monuments/image-7.jpg",
-    "description": "Опис другого зображення"
+    "description": "Опис 7 зображення"
   },
   {
     "id": 8,
     "path": "/single-monuments/image-8.jpg",
-    "description": "Опис другого зображення"
+    "description": "Опис 8 зображення"
   }
 ]
