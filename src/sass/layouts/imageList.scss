@@ -5,7 +5,7 @@
 }
 
 .single__title {
-  font-family: "Playfair Display", Sans-serif;
+  font-family: 'Playfair Display', Sans-serif;
   font-size: 2.6em;
   font-weight: 400;
   line-height: 1.2em;
@@ -28,6 +28,7 @@
 .single__item {
   border: 1px solid #bd976e;
   padding: 10px;
+  width: 342px;
 }
 .single__img {
   cursor: pointer;
@@ -35,7 +36,7 @@
   height: 100%;
 }
 .single__label {
-  font-family: "Playfair Display", Sans-serif;
+  font-family: 'Playfair Display', Sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2em;
@@ -55,7 +56,7 @@
   margin-left: 7px;
   border: 2px solid #bd976e;
   color: #bd976e;
-  font-family: "Playfair Display", Sans-serif;
+  font-family: 'Playfair Display', Sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.2em;
@@ -75,7 +76,7 @@ technical__works
   background-color: #fbf7f0;
 }
 .technical__works {
-  font-family: "Playfair Display", Sans-serif;
+  font-family: 'Playfair Display', Sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.2em;
