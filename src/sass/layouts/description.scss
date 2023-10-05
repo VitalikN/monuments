@@ -1,4 +1,4 @@
-@import "../utils/mixins";
+@import '../utils/mixins';
 
 .description__container {
   background-color: #29170c;
@@ -11,7 +11,7 @@
       rgba(41, 23, 12, 0.6),
       rgba(41, 23, 12, 0.6)
     ),
-    url("/Angel.jpg");
+    url('/Angel.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,7 +22,7 @@
   padding-top: 3em;
 }
 .description__title {
-  font-family: "Playfair Display", Sans-serif;
+  font-family: 'Playfair Display', Sans-serif;
   font-size: 2em;
   font-weight: 400;
   line-height: 1em;
@@ -41,8 +41,8 @@
 }
 
 .description__text {
-  font-family: "Playfair Display", Sans-serif;
-  font-size: 1.25rem;
+  font-family: 'Playfair Display', Sans-serif;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.4em;
 

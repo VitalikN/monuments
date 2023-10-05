@@ -1,11 +1,11 @@
-@import "../utils/mixins";
+@import '../utils/mixins';
 
 .services__section {
   background-image: linear-gradient(
       rgba(41, 23, 12, 0.6),
       rgba(41, 23, 12, 0.6)
     ),
-    url("/Angel.jpg");
+    url('/Angel.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,8 +15,8 @@
 }
 
 .services__title {
-  font-family: "Playfair Display", Sans-serif;
-  font-size: 2.6em;
+  font-family: 'Playfair Display', Sans-serif;
+  font-size: 2em;
   font-weight: 400;
   line-height: 1.2em;
   letter-spacing: 0px;
@@ -54,8 +54,8 @@
   }
 }
 .services__text {
-  font-family: "Playfair Display", Sans-serif;
-  font-size: 1.25rem;
+  font-family: 'Playfair Display', Sans-serif;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 1.4em;
 
